@@ -11,8 +11,8 @@
 
 IPTABLES="/sbin/iptables"
 
-IFACE_LO=""
-IP_IFACE_LO=""
+IFACE_LO="lo"
+IP_IFACE_LO="127.0.0.1"
 
 IFACE_EXT=""
 IP_IFACE_EXT=""
