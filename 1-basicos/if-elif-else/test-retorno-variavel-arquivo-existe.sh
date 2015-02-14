@@ -7,6 +7,6 @@ if [ $? = 0 ]; then
 	echo "O arquivo teste.txt existe em /tmp"
 	else
 	echo "A saída foi $?"
-	echo "O arquivo teste.txt NÃO existe /tmp"
+	echo "O arquivo teste.txt NÃO existe em /tmp"
 fi
 

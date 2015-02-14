@@ -2,7 +2,7 @@
 # Descrição: exemplo simples de case
 
 # Mostrando ao usuário as opções
-tput setaf 6
+tput setaf 6 # Tornando a cor verde
 echo "Qual é o melhor sistema operacional?"
 echo "Digite 1 para Windows"
 echo "Digite 2 para Mac Os"
@@ -15,7 +15,7 @@ read SISTEMA
 
 # O case propriamente dito
 # tratando a resposta do usuário
-tput setaf 4
+tput setaf 4 # Tornando a cor azul
 case $SISTEMA in
 	1) echo "Sabe de nada inocente!";;
 	2) echo "Tem certeza disso? Não é melhor pedir ajuda as placas?";;

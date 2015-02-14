@@ -4,11 +4,12 @@
 # Estabelece uma variável chamada "MOEDA"
 # onde seu conteúdo é a outra variável, neste caso $RANDOM
 MOEDA="$((RANDOM %2))"
+
 # Verificando a saída da variável
 if [[ $MOEDA -eq 0 ]]; then
-echo "Resultado: cara"
-else
-echo "Resultado: coroa"
+	echo "Resultado: cara"
+	else
+	echo "Resultado: coroa"
 fi
 
 # Neste script podemos ver:
