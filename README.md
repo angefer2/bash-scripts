@@ -25,7 +25,7 @@ Instalando
 
 Para baixar os scripts faça:
 
-	$ git clone https://github.com/ghtp25/scripts-shell-linux
+	$ git clone https://github.com/ghtp25/bash-scripts
 
 Para tornar um script executável faça:
 
@@ -42,17 +42,4 @@ Contribuição
 Se deseja contribuir com algum dos códigos fique a vontade. Será bem-vindo!
 
 
-Autor
-=====
 
-Gustavo Soares de Lima
-
-Email: ghtp25@gmail.com
-
-Fone: (41)98416299
-
-Eu no: [Linkedin] (http://br.linkedin.com/pub/gustavo-soares-de-lima/63/b06/29a/) (O email para me adicionar no linkedin é gustavo@logicus.com.br)
-
-Eu no: [Youtube] (https://www.youtube.com/user/ghtp25)
-
-Eu no: [Facebook] (https://www.facebook.com/gustavosdelima)
