@@ -1,6 +1,13 @@
 #!/bin/bash
-# Já ouviu falar em tripa? linguíça? ou maçaroca?
+# Imprime tabela de salários segundo Info Exame
 
+echo ""
+tput setaf 4
+echo "*** Tabela Salarial em TI Segundo a Info Exame ***"
+echo ""
+tput sgr0
+
+# Baixando página com salários e limpando saída
 lynx -source http://info.abril.com.br/carreira/salarios/ | \
 	egrep -A 3 'class="curso' | \
 	grep -v '^--' | \
@@ -19,4 +26,6 @@ lynx -source http://info.abril.com.br/carreira/salarios/ | \
 	grep -v '^ ' | \
 	sed 's/&nbsp;//' | \
 	sed 's/&ccedil/cao/' | \
-	sed 's/&oacute;cios/ocios/'
+	sed 's/&oacute;cios/ocios/' | \
+	sed 's/&iacute;der/ider/' | \
+	sed -r 's/^([a-zA-Z].*)/\n\1/g'
