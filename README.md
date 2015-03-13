@@ -1,7 +1,8 @@
-Scripts-shell-linux
+Bash-scripts
 =================
 
-Alguns scripts feitos em Shell no Linux com objetivos de aprendizado.
+Alguns scripts feitos em Shell no Linux com objetivos de aprendizado. Muitos 
+são adaptações do que tenho encontrado durante meus estudos.
 
 
 Organização
@@ -18,6 +19,7 @@ Os scripts estão dividos em seis pastas:
 - Kdialog
 - CGI
 - Regex
+- Instaladores
 
 
 Instalando
