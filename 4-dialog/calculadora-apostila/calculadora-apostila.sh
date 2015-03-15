@@ -7,35 +7,39 @@
 
 # Variáveis
 VERSAO="0.2"
-TITULO="CALCULADORA DE APOSTILAS $VERSAO"
-SUBTITULO="LOGICUS TECNOLOGIA DE INFORMAÇÃO E COMUNICAÇÃO"
+TITULO="Calculadora de apostilas da Logicus $VERSAO"
+SUBTITULO="Logicus Tecnologia de Informação e Comunicação"
 
-# Função de Aviso
+# Função de Aviso ao usuário sobre 
+# o uso específico deste script
 funcao_aviso () {
-
 	dialog  --title "$TITULO" --backtitle "$SUBTITULO" \
 		--msgbox "Olá. A Logicus utiliza este programa para tratar rotinas internas \
 		que dificilmente lhe farão sentido. Em todo caso você poderá usar este programa \
-		se o final dos arquivos a serem calculados for NPx, onde x é o número de \
-		páginas que o arquivo deveria ter" 0 0
+		se o final dos arquivos a serem calculados vindos do google docs for NPx, onde x \
+		é o número de páginas que o arquivo deveria ter." 0 0
 
 	funcao_menu
-
 }
 
 # Função Prepara
 funcao_prepara () {
-
+	# Solicitando ao usuário o diretório onde está o arquivo compactado
+	# contendo as apostilas
 	DIRETORIO=$(dialog --stdout --title "$TITULO" --backtitle "$SUBTITULO" \
 		--inputbox "Digite o caminho do diretório onde está o arquivo zipado. \
 		Exemplo: /home/$USER/Downloads/" 0 0)
 
+	# Solicitando ao usuário que selecione o arquivo zipado a ser descompactado
 	ZIPADO=$(dialog --stdout --title "$TITULO" --backtitle "$SUBTITULO" \
 	--fselect $DIRETORIO 0 0)
 
-	mv $ZIPADO .
+	# Copiando arquivo zipado para a pasta onde está o script
+	cp $ZIPADO .
+	# Descompactando arquivo zipado
 	unzip *.zip
 
+	# Mensagem para o usuário de conclusão da descompactação
 	dialog --title "$TITULO" --backtitle "$SUBTITULO" \
 		--infobox "Apostilas descompactadas, aguarde mais um momento \
 		para que criemos as bases de dados que serão utilizadas \
@@ -46,21 +50,21 @@ funcao_prepara () {
 
 	# Cria lista de Número de páginas escritas
 	while read LINHA; 
-	do pdftk $LINHA  dump_data \
-	| grep NumberOfPages \
-	| sed 's/.*: //' >> NumeroDePaginasEscritas.txt; 
+	do pdftk $LINHA  dump_data | \
+	grep NumberOfPages | \
+	sed 's/.*: //' >> NumeroDePaginasEscritas.txt; 
 	done < ListaDeApostilas.txt
 
 	# Cria lista de nomes das apostilas
-	cat ListaDeApostilas.txt \
-	| sed 's/.*aula_//' \
-	| sed 's/_NP.*//' >> ListaNomesApostilas.txt
+	cat ListaDeApostilas.txt | \
+	sed 's/.*aula_//' | \
+	sed 's/_NP.*//' >> ListaNomesApostilas.txt
 
 	# Cria Lista de total de páginas para se escrever
-	cat ListaDeApostilas.txt \
-	| sed 's/.*aula_//' \
-	| sed 's/.*NP//' \
-	| sed 's/.pdf//' >> TotalParaSeEscrever.txt
+	cat ListaDeApostilas.txt | \
+	sed 's/.*aula_//' | \
+	sed 's/.*NP//' | \
+	sed 's/.pdf//' >> TotalParaSeEscrever.txt
 
 	# Cria arquivo com lista "Apostila | Número de Páginas Feitas | Número de Páginas a se fazer"
 	paste ListaNomesApostilas.txt \
@@ -71,7 +75,6 @@ funcao_prepara () {
 		--msgbox "Arquivo descompactado com sucesso, base de dados criada!" 0 0
 
 	funcao_menu
-
 }
 
 funcao_media () {
