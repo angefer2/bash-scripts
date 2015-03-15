@@ -1,68 +1,74 @@
 #!/bin/bash
 # Nome: firewall.sh
-# Descrição: script simples de firewall
+# Resumo: Shell Script simples de Firewall
 # Autor: Gustavo S. de Lima
 # Email: gustavo@logicus.com.br
+# Descrição: O objetivo deste script é servir no aprendizado
+# da programação Shell Script
 
 # Instruções no Debian
+# Para dar permissão ao script
 # chmod 755 /etc/init.d/firewall.sh
+# Para o firewall 
 # update-rc.d defaults firewall.sh
 
+# Levantando módulos
+modprobe ip_tables
+modprobe iptable_nat
+modprobe ip_conntrack
+modprobe ip_conntrack_ftp
+modprobe ip_nat_ftp
+modprobe ipt_LOG
+modprobe ipt_REJECT
+modprobe ipt_MASQUERADE
+modprobe ipt_state
+modprobe ipt_multiport
+modprobe iptable_mangle
+modprobe ipt_tos
+modprobe ipt_limit
+modprobe ipt_mark
+modprobe ipt_MARK
 
-IPTABLES="/sbin/iptables"
-
-IFACE_LO="lo"
-IP_IFACE_LO="127.0.0.1"
-
-IFACE_EXT=""
-IP_IFACE_EXT=""
-IP_REDE_EXT=""
-IP_BROADCAST_EXT=""
-MASC_REDE_EXT=""
-
-IFACE_INT=""
-IP_IFACE_INT=""
-IP_REDE_INT=""
-IP_BROADCAST_INT=""
-MASC_REDE_INT=""
-
-case "$1" in
+case $1 in
 
 	start)
+	
+	# Mensagem de inicialização
+	echo "Script de Firewal"
+	echo "Criado por Gustavo Soares de Lima"
+	echo "Email: gustavo@logicus.com.br"
 	echo "Iniciando Firewall..."
-	$IPTABLES -F
-	$IPTABLES -F -t nat
-	$IPTABLES -F -t mangle
-	$IPTABLES -X
 
-	# Políticas padrão
-	$IPTABLES -P INPUT DROP
-	$IPTABLES -P FORWARD DROP
-	$IPTABLES -P OUTPUT DROP
+	# Iniciando política padrão
+	iptables -P INPUT DROP
+	iptables -P OUTPUT ACCEPT
+	iptables -P FORWARD DROP
+
+	# Habilitando tráfego interno
+	iptables -I INPUT -i lo -j ACCEPT
+	iptables -I OUTPUT -o lo -j ACCEPT
+
+	iptables -I INPUT -m state --state ESTABLISHED -j ACCEPT
+	iptables -I OUTPUT -m state --state RELATED -j ACCEPT
+
 	;;
 
 	stop)
+
 	echo "Parando Firewall..."
-	$IPTABLES -F
-	$IPTABLES -F -t nat
-	$IPTABLES -F -t mangle
+
 	;;
 
 	restart)
+
 	$0 stop
 	$0 start
-	;;
 
-	status)
-	$IPTABLES -L
-	$IPTABLES -L -t nat
-	$IPTABLES -L -t mangle
 	;;
 
 	*)
-	echo "Use $0 {start|stop|restart|status}"
+	
+	echo "Digite $0 {start|stop|restart|status}"
+
 	;;
-
 esac
-
-exit 0
