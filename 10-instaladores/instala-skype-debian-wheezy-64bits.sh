@@ -31,7 +31,7 @@ cd ~
 echo "Agora vamos baixar o pacote do Skype..."
 wget -O skype-install.deb http://www.skype.com/go/getskype-linux-deb
 
-# Instalando o pacote do Skyé
+# Instalando o pacote do Skype
 echo "Usaremos agora o dpkg para instalar o pacote..."
 dpkg -i skype-install.deb
 
