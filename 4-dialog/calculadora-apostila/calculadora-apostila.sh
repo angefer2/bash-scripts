@@ -50,7 +50,7 @@ funcao_prepara () {
 
 	# Cria lista de Número de páginas escritas
 	while read LINHA; 
-	do pdftk $LINHA  dump_data | \
+	do pdftk $LINHA dump_data | \
 	grep NumberOfPages | \
 	sed 's/.*: //' >> NumeroDePaginasEscritas.txt; 
 	done < ListaDeApostilas.txt
@@ -141,6 +141,23 @@ funcao_menu
 
 }
 
+funcao_limpa_base () {
+
+	rm Cursos_Logicus-*.zip
+	rm ListaDeApostilas.txt
+	rm NumeroDePaginasEscritas.txt
+	rm TotalParaSeEscrever.txt
+	rm -fr Cursos_Logicus
+	rm ListaApostilaFeitoSeFazer.txt
+	rm ListaNomesApostilas.txt
+	rm Porcentagem.txt
+
+	dialog --title "$TITULO" --backtitle "$SUBTITULO" \
+	--msgbox "Arquivos de dados apagados, base limpa." 0 0
+
+funcao_menu
+
+}
 
 # Função Menu
 funcao_menu () {
@@ -190,6 +207,12 @@ funcao_menu () {
 			funcao_porcentagem
 
 		;;
+
+
+		Limpa) funcao_limpa_base
+
+		;;
+
 
 		Sair)
 		
