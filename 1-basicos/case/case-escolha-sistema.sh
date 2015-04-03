@@ -3,10 +3,10 @@
 
 # Mostrando ao usuário as opções
 tput setaf 6 # Tornando a cor verde
-echo "Qual é o melhor sistema operacional?"
-echo "Digite 1 para Windows"
-echo "Digite 2 para Mac Os"
-echo "Digite 3 para Linux"
+	echo "Qual é o melhor sistema operacional?"
+	echo "Digite 1 para Windows"
+	echo "Digite 2 para Mac Os"
+	echo "Digite 3 para Linux"
 tput sgr0
 
 # Capturando resposta do usuário
@@ -23,3 +23,5 @@ case $SISTEMA in
 	*) echo "Você digitou uma opção inválida!";;
 esac
 tput sgr0
+
+# FIM

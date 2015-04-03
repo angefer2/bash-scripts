@@ -1,6 +1,6 @@
 #!/bin/bash
-# Nome: calcapost.sh
-# Calculadora de apostilas da Logicus
+# Nome: calculadora-apostila.sh
+# Descrição: Calculadora de apostilas da Logicus
 # Dependências: unzip, pdftk, dateutils
 # Autor: Gustavo S. de Lima
 # Email: ghtp25@gmail.com
@@ -151,6 +151,7 @@ funcao_limpa_base () {
 	rm ListaApostilaFeitoSeFazer.txt
 	rm ListaNomesApostilas.txt
 	rm Porcentagem.txt
+	rm TotalProduzidoPorApostila.txt
 
 	dialog --title "$TITULO" --backtitle "$SUBTITULO" \
 	--msgbox "Arquivos de dados apagados, base limpa." 0 0

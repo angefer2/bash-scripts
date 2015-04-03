@@ -1,2 +1,17 @@
-Esta pasta contém scripts básicos para fins de aprendizado. Em sua grande maioria 
-são escritos que parecem bobos, mas podem ajudar quem está aprendendo.
+Esta pasta contém subdiretórios com exemplos de scripts básicos.
+Lembrando sempre que o objetivo destes scripts é o aprendizado
+da programação shell.
+
+Os scripts desta pasta estão divididos em:
+
+case
+for
+funcoes
+if-elif-else
+notify-send
+operadores
+read
+shift
+variaveis
+while
+

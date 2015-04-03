@@ -1,8 +1,7 @@
 Bash-scripts
 =================
 
-Alguns scripts feitos em Shell no Linux com objetivos de aprendizado. Muitos 
-são adaptações do que tenho encontrado durante meus estudos.
+Alguns scripts feitos em Shell no Linux com objetivos de aprendizado.
 
 
 Organização
