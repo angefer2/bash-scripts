@@ -1,4 +1,6 @@
 #!/bin/bash
+# Descrição: mostra uma lista dos arquivos
+# como extensão conf presentes em /etc
 
 for arquivo in /etc/*/*.conf
 do
@@ -9,4 +11,3 @@ do
 	echo "$arquivo"
 	tput sgr0
 done
-

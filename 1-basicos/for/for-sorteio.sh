@@ -5,9 +5,21 @@
 echo "Digite o número de participantes do sorteio:"
 read participantes
 
+# Verificando se o usuário determinou o número de participantes
+if [[ -z $participantes ]]; then
+	echo "Você não escolheu o número de participantes"
+	exit
+fi
+
 # Solicitando ao usuário número de sorteados
 echo "Digite o número de sorteados:"
 read sorteados
+
+# Verificando se o usuário determinou o número de sorteados
+if [[ -z $sorteados ]]; then
+	echo "Você não escolheu o número de sorteados"
+	exit
+fi
 
 # Gerando total de concorrentes com Seq
 # junto e o número indicado de participantes
@@ -27,8 +39,8 @@ echo "E o resultado é:"
 sleep 3
 	for i in $sorteados
 	do
-	echo "Resultado:"
-	head -n $i /tmp/resultado
+		echo "Resultado:"
+		head -n $i /tmp/resultado
 	done
 
 # Neste script podemos ver:
