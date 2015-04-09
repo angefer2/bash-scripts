@@ -72,10 +72,10 @@
 ./5-zenity/zenity-radiolist-pergunta.sh
 ./6-yad/yad-calculadora-simples.sh
 ./6-yad/yad-firewall/yad-firewall.sh
-./6-yad/yad-form-field-cadastro.sh
 ./6-yad/yad-ola-mundo.sh
 ./6-yad/yad-scala-simples.sh
 ./6-yad/yad-auditoria.sh
+./6-yad/yad-form-field-cadastro.sh
 ./7-kdialog/kdialog-exemplo-calendar.sh
 ./7-kdialog/kdialog-exemplo-combobox.sh
 ./7-kdialog/kdialog-exemplo-detaildsorry.sh
