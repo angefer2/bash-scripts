@@ -3,9 +3,10 @@
 
 echo "Digite um número maior que 9:"
 read numero
+
 if (($numero > 9)); then
-echo "correto!"
+	echo "correto!"
 else
-echo "errado!"
+	echo "errado!"
 fi
 

@@ -1,5 +1,5 @@
 #!/bin/bash
-# Descrição: eemplo de if com teste de igual a 0
+# Descrição: exemplo de if com teste de igual a 0
 
 echo "Digite o nome do usuário que deseja procurar:"
 read nome
@@ -7,11 +7,13 @@ read nome
 echo "Procurando $nome..."
 who | grep $nome
 
-	if [ $? -eq 0 ]; then
+# Se o resultado for igual a 0, ou seja
+# se o comando anterior teve sucesso...
+if [ $? -eq 0 ]; then
 	echo "$nome encontrado, este usuário está logado"
-	else
+else
 	echo "$nome não foi encontrado"
-	fi
+fi
 
 # Neste script podemos ver:
 # - Uso dos comandos who e grep com pipe

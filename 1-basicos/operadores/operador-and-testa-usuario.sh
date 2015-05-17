@@ -5,9 +5,9 @@
 # se o arquivo .bashrc possui permissão de escrita
 if [ $USER = gustavo ] && [ -w $HOME/.bashrc ]
 then
-echo "Gustavo tem permissão para alterar o .bashrc"
+	echo "Gustavo tem permissão para alterar o .bashrc"
 else
-echo "Ou o usuário $USER não é Gustavo, ou o arquivo .bashrc \
+	echo "Ou o usuário $USER não é Gustavo, ou o arquivo .bashrc \
 não possui permissão de escrita"
 fi
 

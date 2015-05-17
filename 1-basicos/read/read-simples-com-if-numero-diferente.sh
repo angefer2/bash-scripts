@@ -7,9 +7,9 @@ echo "Digite um número:"
 read numero
 # Testa a saída da variável
 if [ $numero != 0 ]; then
-echo "Esse número não é zero"
+	echo "Esse número não é zero"
 else
-echo "Esse número é zero"
+	echo "Esse número é zero"
 fi
 
 # Neste script vimos:

@@ -4,7 +4,8 @@
 # Testa se a saída da variável $UID é 0 ou não
 if [ $UID != 0 ]; then
 	echo "Usuário não confirmado como root."
-	else
+	exit 1
+else
 	echo "Ok, usuário confirmado como root."
 	exit 0
 fi

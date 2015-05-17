@@ -5,7 +5,7 @@ cat /tmp/teste.txt
 if [ $? = 0 ]; then
 	echo "A saída foi $?"
 	echo "O arquivo teste.txt existe em /tmp"
-	else
+else
 	echo "A saída foi $?"
 	echo "O arquivo teste.txt NÃO existe em /tmp"
 fi

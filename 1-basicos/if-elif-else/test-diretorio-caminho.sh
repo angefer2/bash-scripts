@@ -3,8 +3,12 @@
 
 echo "Digite um caminho para testar se é diretório:"
 read caminho
-	if test -d $caminho; then
+
+# Perceba o uso do test articulado com if
+if test -d $caminho; then
 	echo "$caminho é um diretório"
-	else
+else
 	echo "$caminho não é um diretório"
-	fi
+fi
+
+# FIM
