@@ -16,6 +16,7 @@ Ajuda="Opções:
 	--sorteio-com-datas	Mostra datas dos sorteios com números sorteados
 	--sorteio-por-data	Mostra o sorteio de uma data específica
 	--sorteio-por-mes	Mostra o sorteio por mês
+	--jogo-aleatorio	Gera uma sequência aleatória para palpite
 "
 echo "$Ajuda"
 }
@@ -72,6 +73,10 @@ funcao_sorteio_por_mes () {
 	grep -E -A 6 '[0-9]{2}\/'$mes'\/[0-9]{4}'
 }
 
+funcao_jogo_aleatorio () {
+	seq 60 | shuf | tail -6
+}
+
 # Caso o usuário não digite nada
 # mostra a ajuda
 if [[ "$#" == "0" ]]; then
@@ -100,6 +105,9 @@ case $1 in
 	;;
 	
 	--sorteio-por-mes) funcao_sorteio_por_mes
+	;;
+
+	--jogo-aleatorio) funcao_jogo_aleatorio
 	;;
 
 esac

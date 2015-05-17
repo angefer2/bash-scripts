@@ -1,9 +1,10 @@
 #!/bin/bash
+# Nome: funcao-mostra-comentarios.sh
 # Descrição: este script mostra os comentários de um arquivo
 
 # Função para mostrar os comentários
 MostraComentarios () {
-egrep "^#" $caminho
+	egrep "^#" $caminho
 }
 
 echo "Digite o caminho do arquivo que deseja mostrar os comentários:"

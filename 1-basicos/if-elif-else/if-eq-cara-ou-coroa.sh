@@ -8,7 +8,7 @@ MOEDA="$((RANDOM %2))"
 # Verificando a saída da variável
 if [[ $MOEDA -eq 0 ]]; then
 	echo "Resultado: cara"
-	else
+else
 	echo "Resultado: coroa"
 fi
 

@@ -1,5 +1,5 @@
 #!/bin/bash
-# limpatmp.sh
+# Nome: limpatmp.sh
 # Descrição: apaga arquivos mais velhos que 30 dias do /tmp
 
 LimpaTmp () {
