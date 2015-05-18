@@ -66,3 +66,23 @@ Bônus
 [Parte 09 - Time](https://docs.google.com/document/d/1N8qnyjq0ZtQ6isyJ5CkhkoV--NqQLa72KKgSi8ULlto/pub)
 
 [Parte 10 - Wc](https://docs.google.com/document/d/1DqkD5XseCa9FA47x7glAccKcrmPPLUaIyV8WfA_FoQ4/pub)
+
+[Parte 22 - Redirecionamentos](https://docs.google.com/document/d/1DvrOT-0NJraxVl78YxSdXaDUoCqvophqnfRqY0MY7Ew/pub)
+
+[Parte 32 - Editor Vim](https://docs.google.com/document/d/1H-80TI5T8fYgV3nwEbWOoOnMACKh2ZgKE-HhRMDnofQ/pub)
+
+[Parte 35 - variáveis](https://docs.google.com/document/d/1E45-lwYzwD-yExRA0OtzclVENoQ6ZSEZSlNjYX6z21c/pub)
+
+[Parte 36 - Read](https://docs.google.com/document/d/1HSEThvhrR0f1u3tRN4URKFkTUQ-mPFXfJC46H8XgVq4/pub)
+
+[Parte 39 - Operadores](https://docs.google.com/document/d/1TDy5kYMLNtp2IHxTKE9vsOYTsLXFDYTYdoTo8oRwVR8/pub)
+
+[Parte 40 - Case](https://docs.google.com/document/d/1kjOoGcf-oscoobKMuotz3UWRYThbDbR7uRO0GdcwxpY/pub)
+
+[Parte 42 - While](https://docs.google.com/document/d/1fHNc_15MEEoJhd1LbHQfmnX07H0JWnX49-e6ehkvQBI/pub)
+
+[Parte 44 - Notify-send](https://docs.google.com/document/d/12YG7uSBjxud8taQRCp7bd8mgYlT8r4g3m_nFxbcVPwk/pub)
+
+[Parte 48 - Yad](https://docs.google.com/document/d/11tw1zyzA3R8nHOxt8GgDoNqXJuTBkLnkusM10xqYtzw/pub)
+
+[Parte 51 - Expressões regulares](https://docs.google.com/document/d/1dgstusgsD1wj_UVzBmlqW7iXOeR7foCSN2tL-5-nEiE/pub)
