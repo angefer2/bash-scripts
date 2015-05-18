@@ -1,6 +1,7 @@
 ./10-instaladores/instala-puppet-debian-wheezy.sh
 ./10-instaladores/instala-samba-debian-server.sh
 ./10-instaladores/instala-skype-debian-wheezy-64bits.sh
+./10-instaladores/instala-dropbox-mult-arch.sh
 ./10-instaladores/instala-apache-cgi.sh
 ./10-instaladores/instala-seguranca-basica-debian.sh
 ./10-instaladores/instala-openvpn-debian.sh
@@ -9,10 +10,15 @@
 ./2-intermediarios/tput/mensagem-colorida.sh
 ./2-intermediarios/tput/tput-carnaval.sh
 ./4-dialog/dialog-game-alvo.sh
+./4-dialog/dialog-tailbox-monit-syslog.sh
+./4-dialog/dialog-gauge-simples.sh
 ./4-dialog/dialog-checklist.sh
 ./4-dialog/dialog-calendario.sh
+./4-dialog/gerenciador-cluster-debian.sh
+./4-dialog/gerenciador-cluster-debian.sh/gad.sh
 ./4-dialog/calculadora-apostila/calculadora-apostila.sh
 ./4-dialog/dialog-msgbox.sh
+./4-dialog/dialog-timebox-simples.sh
 ./4-dialog/dialog-radiolist.sh
 ./4-dialog/dialog-senha.sh
 ./4-dialog/minieditor/minieditor.sh
@@ -32,6 +38,7 @@
 ./1-basicos/case/case-escolha-variedades-exemplo-while.sh
 ./1-basicos/case/case-escolha-sistema.sh
 ./1-basicos/shift/shift-while.sh
+./1-basicos/shift/exemplo-shift-simples.sh
 ./1-basicos/if-elif-else/if-igual-teste-senha.sh
 ./1-basicos/if-elif-else/if-elif-bom-dia.sh
 ./1-basicos/if-elif-else/if-diferenca-confere-root.sh
@@ -62,6 +69,7 @@
 ./1-basicos/variaveis/variaveis-especiais-mostra-todas.sh
 ./1-basicos/variaveis/variaveis-especiais-mostra-todas-sem-exemplo.sh
 ./1-basicos/variaveis/variaveis-vetores-familia.sh
+./1-basicos/variaveis/variaveis-find-parametros.sh
 ./1-basicos/variaveis/variaveis-multiplicacao.sh
 ./1-basicos/variaveis/variaveis-exemplo-escape.sh
 ./1-basicos/variaveis/variaveis-ambiente.sh
