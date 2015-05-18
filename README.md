@@ -67,7 +67,39 @@ Bônus
 
 [Parte 10 - Wc](https://docs.google.com/document/d/1DqkD5XseCa9FA47x7glAccKcrmPPLUaIyV8WfA_FoQ4/pub)
 
+[Parte 11 - Links simbólicos](https://docs.google.com/document/d/1X5z68tRoOtrmoPchNEz1pedYuW0Vk_TsLZGE597AjOA/pub)
+
+[Parte 12 - Touch](https://docs.google.com/document/d/1hJf-1HBjMLsi9sOsaF2O8-LsbzJEUtzdcohCitdscJc/pub)
+
+[Parte 13 - Data e hora](https://docs.google.com/document/d/1C3uZ5Rg1v7s_1L8ZQwvwtQMuse2AksOPuqMcotsj_QU/pub)
+
+[Parte 16 - Cp](https://docs.google.com/document/d/1062VoX_TH65qsORTKSP-A0sTVby_EWuYTDJXlVwAYmU/pub)
+
+[Parte 17 - Mkdir e rmdir](https://docs.google.com/document/d/1Du79qmXVw_EYFty7FMySX7B7lJf_zfNJ0sK2mLx2CnA/pub)
+
+[Parte 18 - Mv](https://docs.google.com/document/d/1d1nSiFd5CY6jMyAS9ztrjVuSfFDNLXwOU9ltPcCCKvs/pub)
+
+[Parte 19 - Rm](https://docs.google.com/document/d/1f-14aFHs8iHFrjO69Dn9Ak912KZz1ZMLduGo5cegadg/pub)
+
+[Parte 21 - Uname](https://docs.google.com/document/d/12Fs9q6Zf1Oilbx4oqH7XX00L4CxgEKibdna-IWUZ-l4/pub)
+
 [Parte 22 - Redirecionamentos](https://docs.google.com/document/d/1DvrOT-0NJraxVl78YxSdXaDUoCqvophqnfRqY0MY7Ew/pub)
+
+[Parte 23 - Cut](https://docs.google.com/document/d/1KmWyuhLiBkkEAhBChaOQEqtec-oh111QNrp7MzQE0gM/pub)
+
+[Parte 24 - Head e tail](https://docs.google.com/document/d/1c6NA3EynyyKinZt99-WGr5-GOAYKn7VsKzkSKb21bbQ/pub)
+
+[Parte 26 - Paste](https://docs.google.com/document/d/1C3xgLKRzaafBTzwtS_ueMb4k17L-Pq7bgrcFaMZUA2Q/pub)
+
+[Parte 27 - Join](https://docs.google.com/document/d/1hHPPSaMhzK0UiqhWda_SKZXUtUidxBl1eAOPPa_MGZU/pub)
+
+[Parte 28 - Sort](https://docs.google.com/document/d/1_B1hQ0N-9RECuRv1gTHUcDDQiFA8_0fF7xyi0BO9fNw/pub)
+
+[Parte 29 - Nl](https://docs.google.com/document/d/1LQ1XU6CPnp9e9X7FpBCijixNYF-55vRt0FgA1T6SkEo/pub)
+
+[Parte 30 - Grep](https://docs.google.com/document/d/12PjVoo49RxNy74usQNoeLTwcqGgTlpMhe8oOARrwMAY/pub)
+
+[Parte 31 - Sed](https://docs.google.com/document/d/1mcNrrr5pvmjT-p3QwVCqF-mSK2kN3rK47dvcfm7ETOw/pub)
 
 [Parte 32 - Editor Vim](https://docs.google.com/document/d/1H-80TI5T8fYgV3nwEbWOoOnMACKh2ZgKE-HhRMDnofQ/pub)
 
