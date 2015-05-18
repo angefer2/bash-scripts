@@ -47,8 +47,13 @@ Bônus
 =====
 
 [35 Variáveis](https://docs.google.com/document/d/1E45-lwYzwD-yExRA0OtzclVENoQ6ZSEZSlNjYX6z21c/pub)
+
 [36](https://docs.google.com/document/d/1HSEThvhrR0f1u3tRN4URKFkTUQ-mPFXfJC46H8XgVq4/pub)
+
 [39 Operadores](https://docs.google.com/document/d/1TDy5kYMLNtp2IHxTKE9vsOYTsLXFDYTYdoTo8oRwVR8/pub)
+
 [42 While](https://docs.google.com/document/d/1fHNc_15MEEoJhd1LbHQfmnX07H0JWnX49-e6ehkvQBI/pub)
+
 [44 Notify-send](https://docs.google.com/document/d/12YG7uSBjxud8taQRCp7bd8mgYlT8r4g3m_nFxbcVPwk/pub)
+
 [48 Yad](https://docs.google.com/document/d/11tw1zyzA3R8nHOxt8GgDoNqXJuTBkLnkusM10xqYtzw/pub)
