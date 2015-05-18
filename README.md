@@ -43,8 +43,8 @@ Contribuição
 Se deseja contribuir com algum dos códigos fique a vontade. Será bem-vindo!
 
 
-Bônus
-=====
+Material de apoio
+=================
 
 
 [Parte 01 - Iniciando na Programação Shell](https://docs.google.com/document/d/1cutxDbd7KhAetYD8cOPMp54XH8YvJ8LJGxMDxzvS2nk/pub)
@@ -135,9 +135,9 @@ Bônus
 
 [Parte 45 - Dialog](https://docs.google.com/document/d/1AwidYJhFo_BHxR2pJx_6508i94GrfC1mnHdpSRMz6ak/pub)
 
-[Parte 45 - Kdialog](https://docs.google.com/document/d/1x-_HpFNEg1xoTD8aqn_octu6kX8I9YDW2qD9fFrqTAg/pub)
-
 [Parte 46 - Zenity](https://docs.google.com/document/d/1G_NtVKQKt6XaUb_s58QOaIQAyoj3hHCvpjCxMkbuhfc/pub)
+
+[Parte 47 - Kdialog](https://docs.google.com/document/d/1x-_HpFNEg1xoTD8aqn_octu6kX8I9YDW2qD9fFrqTAg/pub)
 
 [Parte 48 - Yad](https://docs.google.com/document/d/11tw1zyzA3R8nHOxt8GgDoNqXJuTBkLnkusM10xqYtzw/pub)
 
