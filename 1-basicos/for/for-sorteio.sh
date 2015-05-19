@@ -25,8 +25,8 @@ fi
 # junto e o número indicado de participantes
 seq 1 $participantes > /tmp/concorrentes
 
-# A opção "-r" do sort serve para gerar uma
-# lista randâmica
+# A opção "-R" do sort serve para gerar uma
+# lista randômica
 sort -R /tmp/concorrentes > /tmp/sorteio
 
 # Pegando apenas o número de sorteados
